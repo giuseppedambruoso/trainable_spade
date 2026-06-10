@@ -1,0 +1,14 @@
+# config/config.yaml
+defaults:
+  - _self_
+
+# Physics parameters
+sigma: 1.0
+
+# Training parameters
+learning_rate: 0.001
+batch_size: 64
+epochs: 10
+
+# Dataset
+data_dir: "./data"
